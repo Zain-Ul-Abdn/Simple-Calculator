@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2d4263ed;
+}
+
+.container {
+    width: 21rem;
+    margin: auto;
+    min-height: 450px;
+    padding: 10px 10px;
+    background-color: #2d4263;
+    transform: translateY(7rem);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.347), -2px -2px 5px rgba(255, 255, 255, 0.347);
+}
+
+#res-box {
+    padding: 10px;
+    font-size: 30px;
+    box-sizing: border-box;
+    width: 20rem;
+    color: #ED2B2A;
+    background-color: #2D4263;
+    border: none;
+    transform: translate(10px, 20px);
+    outline: none;
+
+
+}
+
+button {
+    padding: 10px;
+    font-size: 25px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    width: 70px;
+    margin: 5px;
+    font-weight: 400;
+    border-radius: 20px;
+    border: 1px solid #3C415C;
+    background-color: #2D4263;
+    color: white;
+
+}
+
+button ::focus {
+    background-color: white;
+}
+
+.operator {
+    color: #ED2B2A;
+}
