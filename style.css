@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #2d4263ed;
+    /* background-color: #2d4263ed; */
 }
 
 .container {
@@ -29,7 +29,6 @@ body {
     transform: translate(10px, 20px);
     outline: none;
 
-
 }
 
 button {
@@ -45,10 +44,6 @@ button {
     background-color: #2D4263;
     color: white;
 
-}
-
-button ::focus {
-    background-color: white;
 }
 
 .operator {
